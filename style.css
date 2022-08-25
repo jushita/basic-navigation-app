@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    padding: 20px;
+    background-color: grey;
+    display: flex;
+}
+.menu-item {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-right: 1px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-item:active {
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+.main-container {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    width: 100vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
